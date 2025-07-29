@@ -1,0 +1,28 @@
+
+   <!doctype html>
+   <html>
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="./src/output.css" rel="stylesheet">
+   </head>
+   <body class="bg-black text-white h-screen flex flex-col gap-5">
+<div class="flex justify-center">
+ <div class="rounded-sm mt-5 w-[90%] sm:w-[40%] rounded-sm flex justify-center overflow-hidden">
+<input
+  placeholder="Type the name of the book"
+  class="border border-gray-500 focus:border-white focus:outline-none w-full p-3"
+  type="text" id="name">
+
+<button onclick="search(document.getElementById('name').value)" class="hover:cursor-pointer hover:bg-blue-600 bg-blue-500 px-5 text-white">SEARCH</button>
+</div>
+</div>
+<div class="flex justify-center h-auto flex-wrap">
+<div id="div-links" class="rounded-lg p-5 flex justify-center h-auto flex-wrap w-full sm:w-[80%] gap-3  ">
+</div>
+</div>
+
+<script src="links.js">
+      </body>
+   </html>
+  
